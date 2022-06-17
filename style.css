@@ -1,0 +1,35 @@
+
+.container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(rgb(242, 185, 29), rgb(235, 235, 197));
+    height:100%;
+    width:100%;
+}
+
+h1{
+    background-color: blue;
+    color: beige;
+    font-size: 5% auto;
+
+   
+}
+
+nav a{
+   font:Cambria;
+   font-size: medium;
+   text-decoration: none;
+   color: rgb(20, 42, 236);
+   font-display: bold;
+}
+
+footer{
+    background-color: blue;
+    color: beige;
+    font-size: 5% auto;
+}
+
+
+
+
+
+

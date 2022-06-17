@@ -1,0 +1,102 @@
+
+    
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-template-columns: 90%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: auto;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 1%;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 40vw;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    padding-top: 10%;
+    width: 40vw;
+}
+
+.parent2 {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2%;
+    grid-row-gap: 1%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.div3 {
+    grid-area: 1 / 1 / 2 / 2;
+    justify-content: center;
+
+    
+    
+}
+
+.div4 {
+    grid-area: 1 / 2 / 2 / 3;
+   
+    
+    
+}
+
+.div5{
+
+}
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 40vw 40vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 10vh;
+    width:auto;
+    flex-wrap: wrap;
+    
+}

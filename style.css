@@ -1,8 +1,7 @@
 
 .container{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: Arial, Helvetica, sans-serif;
-    font: Verdana;
+    font-family:'Signika', sans-serif;
+    font-size:125%;
     background-image: linear-gradient(rgb(242, 185, 29), rgb(235, 235, 197));
     height:100%;
     width:100%;
@@ -18,7 +17,7 @@ h1{
 
 nav a{
    font:Arial;
-   font-size: medium;
+   font-size: x-large;
    font-style: bold;
    text-decoration: none;
    color: rgb(20, 42, 236);

@@ -19,6 +19,9 @@ h1 {
     grid-template-columns: 90%;
 }
 
+p1{
+    text-align: center;
+}
 
 nav{
     display: flex;
@@ -70,6 +73,7 @@ nav{
 
 .div4 {
     grid-area: 1 / 2 / 2 / 3;
+    justify-content: center;
    
     
     
@@ -95,8 +99,11 @@ footer{
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
     height: 10vh;
     width:auto;
     flex-wrap: wrap;
-    
+    color:rgb(255, 255, 255)
 }
+
+

@@ -33,11 +33,25 @@ nav{
 }
 
 .parent1 {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 2%;
     grid-row-gap: 1%;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1{font-size: 2rem;}
+
+    .parent1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    }
+    
 }
 
 .div1 {
@@ -88,7 +102,7 @@ nav{
 article {
     display: flex;
     flex-direction: column;
-    grid-template-columns: 40vw 40vw;
+    grid-template-columns: 45vw 45vw;
     height: auto;
     justify-content: center;
     align-items: center;

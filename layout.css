@@ -2,11 +2,14 @@
     
 h1 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 10vh;
     width: 100%;
     flex-wrap: wrap;
+    position:relative;
+    /* top:3%; */
 
 }
 
@@ -25,11 +28,15 @@ p1{
 
 nav{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
-    
-    width: auto;
+    width: 100vw;
+    position:fixed;
+    top:0%;
+    background-color: rgb(11, 247, 11);
 }
 
 .parent1 {
@@ -39,30 +46,61 @@ nav{
     grid-template-rows: 1fr;
     grid-column-gap: 2%;
     grid-row-gap: 1%;
+    padding-bottom: 5%;
+  
+    
 }
 
 
+
 @media screen and (max-width: 600px) {
-    h1{font-size: 2rem;}
+    h1{font-size: 2rem;
+    position:relative;
+    top:35%;
+    }
 
     .parent1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    column-width: 90%;
     }
-    
+}
+
+@media screen and (max-width: 450px) {
+    h1{font-size: 1rem;
+        position:relative;
+        top:115%;
+        height: 5vh;
+        }
+    nav{
+        font-size:small;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    h1{font-size: 1rem;
+        position:relative;
+        top:130%;
+        height: 5vh;
+        }
+    nav{
+        font-size:small;
+    }
 }
 
 .div1 {
     grid-area: 1 / 1 / 2 / 2;
     width: 40vw;
+    padding:auto 0px;
 }
 
 .div2 {
     grid-area: 1 / 2 / 2 / 3;
-    padding-top: 10%;
+    padding-top: 2%;
     width: 40vw;
+    padding:auto 0px;
+
 }
 
 .parent2 {
